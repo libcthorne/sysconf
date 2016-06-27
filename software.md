@@ -33,6 +33,11 @@ sudo apt-get -y install oracle-java8-installer oracle-java8-set-default
 ```
 
 ```
+# Install NodeJS 5.x
+curl -sL https://deb.nodesource.com/setup_5.x | sudo -E bash -
+sudo apt-get install -y nodejs
+```
+
 # Install GParted
 sudo apt install -y gparted
 ```
