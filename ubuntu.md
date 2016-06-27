@@ -25,6 +25,9 @@ sudo glib-compile-schemas /usr/share/glib-2.0/schemas/
 # Lock on lid close
 echo "HandleLidSwitchDocked=lock" | sudo tee --append /etc/systemd/logind.conf
 
+# Disable prompt for what to do when mounting media
+gsettings set org.gnome.desktop.media-handling autorun-never true
+
 # Swap CAPS and CTRL
 # immediately
 setxkbmap -option ctrl:nocaps
