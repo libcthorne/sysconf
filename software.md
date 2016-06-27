@@ -82,6 +82,13 @@ echo 'PATH="/opt/android-studio/bin:$PATH"' >> .profile
 . .profile
 ```
 
+```
+# Install GIMP
+sudo add-apt-repository -y ppa:otto-kesselgulasch/gimp
+sudo apt-get update
+sudo apt-get -y install gimp
+```
+
 ## Ubuntu 15.04 (16/06/27)
 
 * Mozilla Firefox (*installed by default*)
