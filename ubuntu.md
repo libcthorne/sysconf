@@ -1,3 +1,9 @@
+# Manual
+
+* Use the "Screen Display" tool to set monitor position.
+
+# Automated
+
 ```
 # Hide launcher by default
 gsettings set org.compiz.unityshell:/org/compiz/profiles/unity/plugins/unityshell/ launcher-hide-mode 1
@@ -23,5 +29,3 @@ setxkbmap -option ctrl:nocaps
 # permanently
 sudo sed -i 's/XKBOPTIONS=""/XKBOPTIONS="ctrl:nocaps"/' /etc/default/keyboard
 ```
-
-* Use the "Screen Display" tool to set monitor position.
