@@ -6,9 +6,10 @@ A record of partition sizes I've tried using.
 
 Ubuntu 15.04 (after one year of usage)
 
-* 6.52GiB swap space; seemingly fine
-* 28.39GiB system space; just over 50% used
-* 39.59GiB for /home; 90% used, **too small**
+* 6.52GiB swap space; seemingly fine; *linux-swap*
+* 67.99GiB extended partition
+** 28.39GiB system space; just over 50% used; *ext4*
+** 39.59GiB for /home; 90% used, **too small**; *ext4*
 
 Windows 7 (after one year of usage)
 
