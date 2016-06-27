@@ -13,6 +13,8 @@ sudo sed -i 's/# deb-src/deb-src/g' /etc/apt/sources.list
 sudo apt-get update
 # Install dependencies
 sudo apt-get -y install build-essential
+# Enable 32 bit architecture (primarily for Wine)
+sudo dpkg --add-architecture i386 
 ```
 
 ```
@@ -35,6 +37,13 @@ curl -L https://get.rvm.io | bash -s stable --autolibs=enabled --ruby --rails
 . ~/.rvm/scripts/rvm
 # Install Ruby 2.2.3+2.3.0+
 rvm install 2.2.3 2.3.0
+```
+
+```
+# Install Wine
+sudo add-apt-repository -y ppa:wine/wine-builds
+sudo apt-get update
+sudo apt-get -y install --install-recommends winehq-devel
 ```
 
 ```
