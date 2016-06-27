@@ -11,11 +11,13 @@
 sudo sed -i 's/# deb-src/deb-src/g' /etc/apt/sources.list
 # Update sources
 sudo apt-get update
+# Install dependencies
+sudo apt-get -y install build-essential
 ```
 
 ```
 # Install Git
-sudo apt install -y git
+sudo apt -y install git
 ```
 
 ```
