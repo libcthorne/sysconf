@@ -116,6 +116,11 @@ echo 'steam steam/licence note ' | sudo debconf-set-selections
 sudo apt-get -y install steam
 ```
 
+```
+# Install Audacity
+sudo apt-get -y install audacity
+```
+
 ## Ubuntu 15.04 (16/06/27)
 
 ### Installed
