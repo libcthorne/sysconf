@@ -11,7 +11,12 @@ sudo apt-get update
 
 ```
 # Install Git
-sudo apt -y install git
+sudo apt install -y git
+```
+
+```
+# Install Dropbox
+sudo apt-get -y install nautilus-dropbox
 ```
 
 ```
@@ -20,7 +25,7 @@ sudo add-apt-repository -y ppa:webupd8team/java
 sudo apt-get update
 # accept license without interaction
 echo oracle-java8-installer shared/accepted-oracle-license-v1-1 select true | sudo /usr/bin/debconf-set-selections
-sudo apt-get install -y oracle-java8-installer oracle-java8-set-default
+sudo apt-get -y install oracle-java8-installer oracle-java8-set-default
 ```
 
 ```
@@ -33,7 +38,7 @@ sudo apt install -y gparted
 wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
 sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
 sudo apt-get update
-sudo apt-get -y install -fg oogle-chrome-stable
+sudo apt-get -y install google-chrome-stable
 ```
 ```
 # Install Emacs 24.5
