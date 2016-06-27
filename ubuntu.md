@@ -9,8 +9,10 @@ gsettings set org.compiz.unityshell:/org/compiz/profiles/unity/plugins/unityshel
 gsettings set org.compiz.core:/org/compiz/profiles/unity/plugins/core/ hsize 4
 gsettings set org.compiz.core:/org/compiz/profiles/unity/plugins/core/ vsize 3
 
-# Disable startup drum sound
-gsettings set com.canonical.unity-greeter play-ready-sound "false"
+# Disable startup drum sound (http://askubuntu.com/a/186120)
+echo "[com.canonical.unity-greeter]
+play-ready-sound = false" | sudo tee --append /usr/share/glib-2.0/schemas/50_unity-greeter.gschema.override
+sudo glib-compile-schemas /usr/share/glib-2.0/schemas/
 
 # Swap CAPS and CTRL
 # immediately
