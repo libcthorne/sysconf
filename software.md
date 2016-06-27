@@ -27,8 +27,8 @@ sudo apt-get -y install nautilus-dropbox
 # Install Java
 sudo add-apt-repository -y ppa:webupd8team/java
 sudo apt-get update
-# accept license without interaction
-echo oracle-java8-installer shared/accepted-oracle-license-v1-1 select true | sudo /usr/bin/debconf-set-selections
+# accept license
+echo oracle-java8-installer shared/accepted-oracle-license-v1-1 select true | sudo debconf-set-selections
 sudo apt-get -y install oracle-java8-installer oracle-java8-set-default
 ```
 
@@ -87,6 +87,14 @@ echo 'PATH="/opt/android-studio/bin:$PATH"' >> .profile
 sudo add-apt-repository -y ppa:otto-kesselgulasch/gimp
 sudo apt-get update
 sudo apt-get -y install gimp
+```
+
+```
+# Install Steam
+# accept license
+echo 'steam steam/question select I AGREE' | sudo debconf-set-selections
+echo 'steam steam/licence note ' | sudo debconf-set-selections
+sudo apt-get install -y steam
 ```
 
 ## Ubuntu 15.04 (16/06/27)
