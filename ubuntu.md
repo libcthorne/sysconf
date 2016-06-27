@@ -14,6 +14,9 @@ echo "[com.canonical.unity-greeter]
 play-ready-sound = false" | sudo tee --append /usr/share/glib-2.0/schemas/50_unity-greeter.gschema.override
 sudo glib-compile-schemas /usr/share/glib-2.0/schemas/
 
+# Lock on lid close
+echo "HandleLidSwitchDocked=lock" | sudo tee --append /etc/systemd/logind.conf
+
 # Swap CAPS and CTRL
 # immediately
 setxkbmap -option ctrl:nocaps
