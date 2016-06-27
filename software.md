@@ -57,6 +57,14 @@ sudo apt-get update
 sudo apt-get -y install skype
 ```
 
+```
+# Install Android Studio 2.1.2
+wget https://dl.google.com/dl/android/studio/ide-zips/2.1.2.0/android-studio-ide-143.2915827-linux.zip
+sudo unzip android-studio-ide-143.2915827-linux.zip -d /opt
+echo 'PATH="/opt/android-studio/bin:$PATH"' >> .profile
+. .profile
+```
+
 ## Ubuntu 15.04 (16/06/27)
 
 * Mozilla Firefox (*installed by default*)
