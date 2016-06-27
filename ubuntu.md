@@ -15,3 +15,5 @@ setxkbmap -option ctrl:nocaps
 # permanently
 sudo sed -i 's/XKBOPTIONS=""/XKBOPTIONS="ctrl:nocaps"/' /etc/default/keyboard
 ```
+
+* Use the "Screen Display" tool to set monitor position.
