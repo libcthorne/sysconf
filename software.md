@@ -2,7 +2,20 @@
 
 ## Ubuntu 15.04 (16/06/27)
 
-* Mozilla Firefox
+```
+sudo apt-get update
+```
+
+```
+# Install Google Chrome
+wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
+sudo apt-get update
+sudo apt-get -y install -fg oogle-chrome-stable
+```
+
+
+* Mozilla Firefox (*installed by default*)
 * Google Chrome
 * GNU Emacs 24.4
 * Anki (from source)
