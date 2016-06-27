@@ -21,6 +21,14 @@ sudo apt -y install git
 ```
 
 ```
+# Install NVM
+wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.31.2/install.sh | bash
+. .bashrc
+# Install NodeJS 5.0 (and npm 3.3.6)
+nvm install 5.0
+```
+
+```
 # Install Dropbox
 sudo apt-get -y install nautilus-dropbox
 ```
