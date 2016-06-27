@@ -1,7 +1,5 @@
 # Software
 
-## Ubuntu 15.04 (16/06/27)
-
 ```
 # Uncomment source repositories for build-dep
 sudo sed -i 's/# deb-src/deb-src/g' /etc/apt/sources.list
@@ -41,6 +39,8 @@ cd anki
 tools/build_ui.sh
 cd -
 ```
+
+## Ubuntu 15.04 (16/06/27)
 
 * Mozilla Firefox (*installed by default*)
 * Google Chrome
