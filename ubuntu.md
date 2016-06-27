@@ -9,6 +9,9 @@ gsettings set org.compiz.unityshell:/org/compiz/profiles/unity/plugins/unityshel
 gsettings set org.compiz.core:/org/compiz/profiles/unity/plugins/core/ hsize 4
 gsettings set org.compiz.core:/org/compiz/profiles/unity/plugins/core/ vsize 3
 
+# Disable startup drum sound
+gsettings set com.canonical.unity-greeter play-ready-sound "false"
+
 # Swap CAPS and CTRL
 # immediately
 setxkbmap -option ctrl:nocaps
