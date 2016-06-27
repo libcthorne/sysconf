@@ -1,8 +1,11 @@
-* Hide bar until mouse over
-* Bar on left side of screen
-* Small icons
-* Holding down 'Windows key' shows bar (+ hints) after a few seconds
+```
+# Hide launcher by default
+gsettings set org.compiz.unityshell:/org/compiz/profiles/unity/plugins/unityshell/ launcher-hide-mode 1
 
-## Unity Tweak Tool
+# Set launcher icons to 32px
+gsettings set org.compiz.unityshell:/org/compiz/profiles/unity/plugins/unityshell/ icon-size 32
 
-* 4x3 workspaces
+# Setup workspaces
+gsettings set org.compiz.core:/org/compiz/profiles/unity/plugins/core/ hsize 4
+gsettings set org.compiz.core:/org/compiz/profiles/unity/plugins/core/ vsize 3
+```
