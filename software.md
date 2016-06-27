@@ -130,6 +130,13 @@ sudo apt-get -y install steam
 sudo apt-get -y install audacity
 ```
 
+```
+# Install SMPlayer
+sudo add-apt-repository -y ppa:rvm/smplayer
+sudo apt-get update
+sudo apt-get -y install smplayer smplayer-themes smplayer-skins
+```
+
 ## Ubuntu 15.04 (16/06/27)
 
 ### Installed
