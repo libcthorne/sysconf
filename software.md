@@ -16,3 +16,4 @@
 * Ubuntu Tweak
 * Tweak Tool
 * Evince Document Viewer
+* redshift
