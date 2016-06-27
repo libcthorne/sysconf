@@ -94,7 +94,7 @@ sudo apt-get -y install gimp
 # accept license
 echo 'steam steam/question select I AGREE' | sudo debconf-set-selections
 echo 'steam steam/licence note ' | sudo debconf-set-selections
-sudo apt-get install -y steam
+sudo apt-get -y install steam
 ```
 
 ## Ubuntu 15.04 (16/06/27)
