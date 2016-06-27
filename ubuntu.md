@@ -11,7 +11,7 @@ gsettings set org.compiz.core:/org/compiz/profiles/unity/plugins/core/ vsize 3
 
 # Swap CAPS and CTRL
 # immediately
-setxkbmap -option ctrl:swapcaps
+setxkbmap -option ctrl:nocaps
 # permanently
 sudo sed -i 's/XKBOPTIONS=""/XKBOPTIONS="ctrl:nocaps"/' /etc/default/keyboard
 ```
