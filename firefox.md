@@ -1,8 +1,7 @@
 ## Preferences
 
-# General
-
-* When Firefox starts: Show my windows and tabs from last time
+* General
+  * When Firefox starts: Show my windows and tabs from last time
 
 ## Pinned tabs
 
