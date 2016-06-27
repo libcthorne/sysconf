@@ -12,7 +12,7 @@ gsettings set org.compiz.unityshell:/org/compiz/profiles/unity/plugins/unityshel
 gsettings set org.compiz.unityshell:/org/compiz/profiles/unity/plugins/unityshell/ icon-size 32
 
 # Set Unity launcher icons
-gsettings set com.canonical.Unity.Launcher favorites "['application://ubiquity.desktop', 'application://org.gnome.Nautilus.desktop', 'application://firefox.desktop',' application://emacs.desktop', 'application://anki.desktop', 'unity://running-apps', 'unity://devices']"
+gsettings set com.canonical.Unity.Launcher favorites "['application://ubiquity.desktop', 'application://org.gnome.Nautilus.desktop', 'application://firefox.desktop', 'application://emacs.desktop', 'application://anki.desktop', 'application://skype.desktop', 'unity://running-apps', 'unity://devices']"
 
 # Setup workspaces
 gsettings set org.compiz.core:/org/compiz/profiles/unity/plugins/core/ hsize 4
