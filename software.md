@@ -3,6 +3,9 @@
 ## Ubuntu 15.04 (16/06/27)
 
 ```
+# Uncomment source repositories for build-dep
+sudo sed -i 's/# deb-src/deb-src/g' /etc/apt/sources.list
+# Update sources
 sudo apt-get update
 ```
 
@@ -13,7 +16,16 @@ sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /et
 sudo apt-get update
 sudo apt-get -y install -fg oogle-chrome-stable
 ```
-
+```
+# Install Emacs 24.5
+sudo DEBIAN_FRONTEND=noninteractive apt-get -y build-dep emacs24
+wget ftp://ftp.gnu.org/pub/gnu/emacs/emacs-24.5.tar.gz
+tar -zxvf emacs-24.5.tar.gz
+cd emacs-24.5
+./configure
+make
+sudo make install
+```
 
 * Mozilla Firefox (*installed by default*)
 * Google Chrome
