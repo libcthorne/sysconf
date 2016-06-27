@@ -28,4 +28,7 @@ echo "HandleLidSwitchDocked=lock" | sudo tee --append /etc/systemd/logind.conf
 setxkbmap -option ctrl:nocaps
 # permanently
 sudo sed -i 's/XKBOPTIONS=""/XKBOPTIONS="ctrl:nocaps"/' /etc/default/keyboard
+
+# Set Unity launcher icons
+gsettings set com.canonical.Unity.Launcher favorites "['application://ubiquity.desktop', 'application://org.gnome.Nautilus.desktop', 'application://firefox.desktop', 'unity://running-apps', 'unity://devices']"
 ```
