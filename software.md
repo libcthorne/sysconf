@@ -30,6 +30,15 @@ cd emacs-24.5
 ./configure
 make
 sudo make install
+cd -
+```
+
+```
+# Install Anki
+sudo apt-get -y install python-qt4 mplayer lame libportaudio2 python-sqlalchemy pyqt4-dev-tools
+git clone https://github.com/dae/anki.git
+cd anki
+tools/build_ui.sh
 ```
 
 * Mozilla Firefox (*installed by default*)
