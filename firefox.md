@@ -15,4 +15,5 @@
 ## Extensions
 
 * [rikaichan (Version 3.00a3)](http://www.polarcloud.com/rikaichan/)
+  * Japanese-English dictionary file
 * [VimFx](https://addons.mozilla.org/en-GB/firefox/addon/vimfx/)  
