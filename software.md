@@ -50,6 +50,7 @@ cd emacs-24.5
 make
 sudo make install
 cd -
+rm -rf emacs-24.5
 ```
 
 ```
