@@ -5,6 +5,12 @@
 # Automated
 
 ```
+BACKGROUND_URL="http://thewallpaper.co/wp-content/uploads/2016/03/space-stars-hd-wallpaper-download-stars-images-free-hd-images-abstract-widescreen-1920x1080.jpg"
+
+# Download and set background image
+wget $BACKGROUND_URL -O background-image
+gsettings set org.gnome.desktop.background picture-uri file:///home/$(whoami)/background-image
+
 # Hide Unity launcher by default
 gsettings set org.compiz.unityshell:/org/compiz/profiles/unity/plugins/unityshell/ launcher-hide-mode 1
 
