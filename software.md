@@ -40,6 +40,14 @@ tools/build_ui.sh
 cd -
 ```
 
+```
+# Install Skype
+sudo add-apt-repository "deb http://archive.canonical.com/ $(lsb_release -sc) partner"
+sudo dpkg --add-architecture i386
+sudo apt-get update
+sudo apt-get -y install skype
+```
+
 ## Ubuntu 15.04 (16/06/27)
 
 * Mozilla Firefox (*installed by default*)
