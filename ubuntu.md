@@ -5,11 +5,14 @@
 # Automated
 
 ```
-# Hide launcher by default
+# Hide Unity launcher by default
 gsettings set org.compiz.unityshell:/org/compiz/profiles/unity/plugins/unityshell/ launcher-hide-mode 1
 
-# Set launcher icons to 32px
+# Set Unity launcher icons to 32px
 gsettings set org.compiz.unityshell:/org/compiz/profiles/unity/plugins/unityshell/ icon-size 32
+
+# Set Unity launcher icons
+gsettings set com.canonical.Unity.Launcher favorites "['application://ubiquity.desktop', 'application://org.gnome.Nautilus.desktop', 'application://firefox.desktop', 'unity://running-apps', 'unity://devices']"
 
 # Setup workspaces
 gsettings set org.compiz.core:/org/compiz/profiles/unity/plugins/core/ hsize 4
@@ -28,7 +31,4 @@ echo "HandleLidSwitchDocked=lock" | sudo tee --append /etc/systemd/logind.conf
 setxkbmap -option ctrl:nocaps
 # permanently
 sudo sed -i 's/XKBOPTIONS=""/XKBOPTIONS="ctrl:nocaps"/' /etc/default/keyboard
-
-# Set Unity launcher icons
-gsettings set com.canonical.Unity.Launcher favorites "['application://ubiquity.desktop', 'application://org.gnome.Nautilus.desktop', 'application://firefox.desktop', 'unity://running-apps', 'unity://devices']"
 ```
