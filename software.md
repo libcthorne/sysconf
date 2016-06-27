@@ -1,5 +1,9 @@
 # Software
 
+## Notes
+
+* If available, copy Dropbox folder to ~/Dropbox before opening Dropbox to avoid unnecessary downloads.
+
 ## Ubuntu 16.04 (16/06/27)
 
 ```
