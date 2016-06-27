@@ -154,6 +154,18 @@ sudo apt-get update
 sudo apt-get install spotify-client
 ```
 
+```
+# Install Redshift
+sudo apt-get -y install autopoint intltool
+git clone https://github.com/jonls/redshift.git
+cd redshift
+./bootstrap
+./configure
+make
+sudo make install
+cd -
+```
+
 ## Ubuntu 15.04 (16/06/27)
 
 ### Installed
