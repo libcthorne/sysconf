@@ -137,6 +137,11 @@ sudo apt-get update
 sudo apt-get -y install smplayer smplayer-themes smplayer-skins
 ```
 
+```
+# Install PostgreSQL
+sudo apt-get install postgresql postgresql-contrib
+```
+
 ## Ubuntu 15.04 (16/06/27)
 
 ### Installed
