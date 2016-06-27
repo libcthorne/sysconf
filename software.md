@@ -29,6 +29,15 @@ nvm install 5.0
 ```
 
 ```
+# Install RVM
+command curl -sSL https://rvm.io/mpapis.asc | gpg2 --import -
+curl -L https://get.rvm.io | bash -s stable --autolibs=enabled
+. ~/.rvm/scripts/rvm
+# Install Ruby 2.2.3+2.3.0
+rvm install 2.2.3 2.3.0
+```
+
+```
 # Install Dropbox
 sudo apt-get -y install nautilus-dropbox
 ```
