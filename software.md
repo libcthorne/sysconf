@@ -39,6 +39,7 @@ sudo apt-get -y install python-qt4 mplayer lame libportaudio2 python-sqlalchemy 
 git clone https://github.com/dae/anki.git
 cd anki
 tools/build_ui.sh
+cd -
 ```
 
 * Mozilla Firefox (*installed by default*)
