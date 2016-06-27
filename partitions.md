@@ -10,7 +10,7 @@ Ubuntu 15.04 (after one year of usage)
 * 28.39GiB system space; just over 50% used
 * 39.59GiB for /home; 90% used, **too small**
 
-Windows (after one year of usage)
+Windows 7 (after one year of usage)
 
 * 100MiB system reserved; seemingly fine (automatically allocated)
 * 38.96GiB system+home space; 90% used, **slightly too small**
