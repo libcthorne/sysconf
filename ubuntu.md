@@ -39,7 +39,7 @@ gsettings set org.gnome.desktop.media-handling autorun-never true
 
 # Swap CAPS and CTRL
 # immediately
-setxkbmap -option ctrl:nocaps
+setxkbmap -option ctrl:swapcaps
 # permanently
-sudo sed -i 's/XKBOPTIONS=""/XKBOPTIONS="ctrl:nocaps"/' /etc/default/keyboard
+sudo sed -i 's/XKBOPTIONS=""/XKBOPTIONS="ctrl:swapcaps"/' /etc/default/keyboard
 ```
