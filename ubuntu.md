@@ -20,6 +20,9 @@ gsettings set org.compiz.unityshell:/org/compiz/profiles/unity/plugins/unityshel
 # Set Unity launcher icons
 gsettings set com.canonical.Unity.Launcher favorites "['application://ubiquity.desktop', 'application://org.gnome.Nautilus.desktop', 'application://firefox.desktop', 'application://emacs.desktop', 'application://anki.desktop', 'application://skype.desktop', 'application://gimp.desktop', 'unity://running-apps', 'unity://devices']"
 
+# Add Dropbox folder to Nautilus bookmarks
+echo "file:///home/chris/Dropbox" >> ~/.config/gtk-3.0/bookmarks
+
 # Setup workspaces
 gsettings set org.compiz.core:/org/compiz/profiles/unity/plugins/core/ hsize 4
 gsettings set org.compiz.core:/org/compiz/profiles/unity/plugins/core/ vsize 3
