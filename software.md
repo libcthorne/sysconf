@@ -37,6 +37,8 @@ curl -L https://get.rvm.io | bash -s stable --autolibs=enabled --ruby --rails
 . ~/.rvm/scripts/rvm
 # Install Ruby 2.2.3+2.3.0+
 rvm install 2.2.3 2.3.0
+# Use Ruby 2.3.0 as default Ruby version
+rvm --default use 2.3.0
 ```
 
 ```
