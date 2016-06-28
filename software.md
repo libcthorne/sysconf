@@ -39,6 +39,9 @@ curl -L https://get.rvm.io | bash -s stable --autolibs=enabled --ruby --rails
 rvm install 2.2.3 2.3.0
 # Use Ruby 2.3.0 as default Ruby version
 rvm --default use 2.3.0
+# Add rvm init to .bashrc for non-login shell
+echo '[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*' >> ~/.bashrc
+
 ```
 
 ```
