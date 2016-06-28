@@ -41,7 +41,6 @@ rvm install 2.2.3 2.3.0
 rvm --default use 2.3.0
 # Add rvm init to .bashrc for non-login shell
 echo '[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*' >> ~/.bashrc
-
 ```
 
 ```
