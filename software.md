@@ -61,6 +61,11 @@ sudo apt-get -y install oracle-java8-installer oracle-java8-set-default
 ```
 
 ```
+# Install Flash Player
+sudo apt-get -y install flashplugin-installer
+```
+
+```
 # Install GParted
 sudo apt install -y gparted
 ```
