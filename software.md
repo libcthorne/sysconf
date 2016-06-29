@@ -26,6 +26,11 @@ git config --global user.email "libcthorne@gmail.com"
 ```
 
 ```
+# Install Markdown
+sudo apt-get -y install markdown
+```
+
+```
 # Install NVM
 wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.31.2/install.sh | bash
 . .bashrc
