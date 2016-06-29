@@ -20,6 +20,9 @@ sudo dpkg --add-architecture i386
 ```
 # Install Git
 sudo apt -y install git
+# Configure Git
+git config --global user.name "Christopher Thorne"
+git config --global user.email "libcthorne@gmail.com"
 ```
 
 ```
