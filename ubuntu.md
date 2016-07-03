@@ -1,6 +1,7 @@
 # Manual
 
 * Use the "Screen Display" tool to set monitor position.
+* [Update graphics drivers.](https://01.org/linuxgraphics/downloads) ([16.04](https://allanbogh.com/2016/01/05/ubuntu-16-04-installing-the-intel-graphics-drivers-using-the-intel-graphics-installer-for-linux/))
 
 # Automated
 
