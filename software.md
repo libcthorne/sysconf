@@ -84,7 +84,7 @@ sudo apt -y install gparted
 
 ```
 # Install LaTeX
-sudo apt-get -y install texlive texstudio
+sudo apt-get -y install texlive-full texstudio
 ```
 
 ```
