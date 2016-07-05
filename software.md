@@ -79,7 +79,12 @@ sudo apt-get -y install flashplugin-installer
 
 ```
 # Install GParted
-sudo apt install -y gparted
+sudo apt -y install gparted
+```
+
+```
+# Install LaTeX
+sudo apt-get -y install texlive texstudio
 ```
 
 ```
