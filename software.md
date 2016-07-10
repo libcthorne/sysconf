@@ -55,7 +55,6 @@ rbenv global 2.3.0
 ```
 # Install Ruby gems
 gem install rubocop
-gem install ruby-lint
 ```
 
 ```
