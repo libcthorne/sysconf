@@ -52,6 +52,11 @@ echo '[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Loa
 ```
 
 ```
+# Install Rubocop
+gem install rubocop
+```
+
+```
 # Install Wine
 sudo add-apt-repository -y ppa:wine/wine-builds
 sudo apt-get update
