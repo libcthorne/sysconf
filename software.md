@@ -52,8 +52,9 @@ echo '[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Loa
 ```
 
 ```
-# Install Rubocop
+# Install Ruby gems
 gem install rubocop
+gem install ruby-lint
 ```
 
 ```
