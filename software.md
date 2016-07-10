@@ -39,19 +39,6 @@ nvm install 5.0
 ```
 
 ```
-# Install RVM with latest Ruby+Rails
-command curl -sSL https://rvm.io/mpapis.asc | gpg2 --import -
-curl -L https://get.rvm.io | bash -s stable --autolibs=enabled --ruby --rails
-. ~/.rvm/scripts/rvm
-# Install Ruby 2.2.3+2.3.0+
-rvm install 2.2.3 2.3.0
-# Use Ruby 2.3.0 as default Ruby version
-rvm --default use 2.3.0
-# Add rvm init to .bashrc for non-login shell
-echo '[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*' >> ~/.bashrc
-```
-
-```
 # Install Ruby gems
 gem install rubocop
 gem install ruby-lint
