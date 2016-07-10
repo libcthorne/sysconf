@@ -39,6 +39,19 @@ nvm install 5.0
 ```
 
 ```
+# Install rbenv
+git clone https://github.com/rbenv/rbenv.git ~/.rbenv
+cd ~/.rbenv && src/configure && make -C src
+echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
+~/.rbenv/bin/rbenv init
+git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
+bash
+rbenv install 2.2.3
+rbenv install 2.3.0
+rbenv global 2.3.0
+```
+
+```
 # Install Ruby gems
 gem install rubocop
 gem install ruby-lint
