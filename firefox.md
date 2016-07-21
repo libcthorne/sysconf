@@ -6,6 +6,7 @@
 * [Faster Video](https://addons.mozilla.org/en-GB/firefox/addon/faster-video/)
 * [Adblock Plus](https://addons.mozilla.org/en-gb/firefox/addon/adblock-plus/)
 * [Open Tabs Next to Current](https://addons.mozilla.org/en-GB/firefox/addon/open-tabs-next-to-current/)
+* [JSONView](https://addons.mozilla.org/en-GB/firefox/addon/jsonview/)
 
 ## Pinned tabs
 
