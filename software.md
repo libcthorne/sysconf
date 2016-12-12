@@ -157,6 +157,8 @@ sudo apt-get -y install steam
 ```
 # Install Audacity
 sudo apt-get -y install audacity
+# Install PulseAudio Volume Control for recording internal audio
+sudo apt-get -y install pavucontrol
 ```
 
 ```
