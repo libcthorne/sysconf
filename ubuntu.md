@@ -12,6 +12,9 @@ BACKGROUND_URL="http://thewallpaper.co/wp-content/uploads/2016/03/space-stars-hd
 wget $BACKGROUND_URL -O background-image
 gsettings set org.gnome.desktop.background picture-uri file:///home/$(whoami)/background-image
 
+# Disable HUD
+gsettings set org.compiz.integrated show-hud "['']"
+
 # Hide Unity launcher by default
 gsettings set org.compiz.unityshell:/org/compiz/profiles/unity/plugins/unityshell/ launcher-hide-mode 1
 
